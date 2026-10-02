@@ -1,6 +1,6 @@
 body {
     font-family: "Lato", sans-serif;
-    background: url("plan-page.jpg");
+    background: url("images/plan-page.jpg");
     font-size: 16px;
     width: 1180px;
     margin: 0 auto;
@@ -15,12 +15,16 @@ section {
 
 
 article {
+    width: 330px;
+    height: 500px;
+    text-align: center;
+    display: inline-block;
     background: #262626;
     display: inline-block;
-    margin: 80px 20px 0 20px;
+    margin: 150px 20px 0 30px;
     border: 5px solid #424242;
     color: #a1a1a1;
-    padding: 20px;
+    
 }
 
 
@@ -52,6 +56,7 @@ li {
 
 button {
     background: #27dcc4;
+    border: none;
     color: #FFFFFF;
     padding: 15px 30px;
     margin: 25px 0;
